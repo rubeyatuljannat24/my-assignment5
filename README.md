@@ -5,7 +5,7 @@
 
 ## Technologies Used
 - React
-- TypeScript
+- JavaScript
 - Vite
 - Tailwind CSS
 - React Toastify
