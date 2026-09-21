@@ -8,11 +8,11 @@ function Navbar() {
         <button className="md:hidden">
           <img src={hamburger} alt="" className="w-6 h-6" />
         </button>
-        {/* logos */}
+
         <div className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0">
           <img src={Logo} alt="" />
         </div>
-        {/* links in the middle */}
+
         <ul className="hidden md:flex gap-4 items-center text-[#475569]">
            <li><a href=""><span className="text-[#DB2777]">Home</span></a></li>
             <li><a href="">Technologies</a></li>
@@ -20,8 +20,6 @@ function Navbar() {
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
         </ul>
-
-
 
         <div className="hidden md:flex gap-3">
           <button>Sign In</button>
