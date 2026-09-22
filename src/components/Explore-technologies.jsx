@@ -36,6 +36,11 @@ export default function ExploreTechnologies() {
     toast.info("Technology removed from stack");
   }
 
+  function removeAll() {
+    setCount([]);
+    toast.info("All technologies removed from stack");
+  }
+
   return (
 
     <div className="inter-font max-w-7xl mx-auto px-4 py-16 ">
@@ -94,6 +99,11 @@ export default function ExploreTechnologies() {
                 </div>
               ))}
             </div>
+           <button
+              onClick={removeAll}
+              className="w-full mt-4 border-red-300 text-red-600 py-2 rounded-lg hover:bg-red-200">
+              Remove All
+            </button>
           </div>
         </div>
       </div>
