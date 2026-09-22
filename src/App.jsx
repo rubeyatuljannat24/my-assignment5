@@ -4,6 +4,7 @@ import Banner from "./components/Banner"
 import ExploreTechnologies from "./components/Explore-technologies"
 import { Suspense } from "react"
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
    
 
 <ToastContainer />
+<Footer/>
 
     </>
   )
