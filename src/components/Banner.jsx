@@ -2,8 +2,8 @@ import heroImg from "../assets/banner-stack.png"
 
 const Banner = () => {
     return (
-        <div className=" inter-font flex justify-between items-center container mx-auto ">
-        <div className="pl-10">
+        <div className="inter-font container mx-auto max-w-6xl flex flex-col lg:flex-row justify-between  items-center ">
+        <div className="pl-6 pr-4">
         <h2 className="text-5xl font-extrabold text-[#0F172A]">Build Your Ideal <br /> <span className="brand-gradient bg-clip-text text-transparent text-5xl font-extrabold">Development Stack </span></h2>   
          <p className="text-[#475569] py-5 text-xl">Explore frontend, backend, database, and tooling options,<br />
         compare them side by side, and put together the stack that fits your <br />

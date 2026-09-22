@@ -36,6 +36,7 @@ export default function ExploreTechnologies() {
     toast.info("Technology removed from stack");
   }
 
+  
   function removeAll() {
     setCount([]);
     toast.info("All technologies removed from stack");
@@ -45,16 +46,16 @@ export default function ExploreTechnologies() {
 
     <div className="inter-font max-w-7xl mx-auto px-4 py-16 ">
 
-      <h2 className="text-3xl font-extrabold ">
+      <h2 className="text-3xl font-extrabold pl-14">
         Explore the <span className="brand-gradient bg-clip-text text-transparent text-3xl font-extrabold">Technologies</span>
       </h2>
 
-      <p className="pt-4 pb-10 text-[#64748B] ">
+      <p className="pt-4 pb-10 text-[#64748B] pl-14">
         Pick one technology per category to build your ideal stack.
       </p>
       {/* 12 Technologies Card */}
       <div className="flex flex-col lg:flex-row">
-        <div className="w-full lg:w-[85%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+        <div className="w-full lg:w-[85%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pl-14 pr-14">
           {technologies.map((technology) => (
             <TechnologyCard
               key={technology.id}

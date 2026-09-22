@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="container mx-auto  px-2 py-8 ">
         <div className="grid grid-cols-4 gap-2">
           {/* footer top left*/}
-          <div className="pl-10 pr-10">
+          <div className="pl-14 ">
             <img className="h-9 w-auto" src={fLogo} alt="" />
             <p className="text-xs text-[#64748B] mt-3 ">
               Curated tools, technologies, and resources for developers building
@@ -43,7 +43,7 @@ const Footer = () => {
           </div>
         </div>
         {/* footer bottom */}
-        <div className="flex justify-between items-center text-xs border-t mt-9 pt-5 pl-10 border-gray-200">
+        <div className="flex justify-between items-center text-xs border-t mt-9 pt-5 pl-14 border-gray-200">
           <p className="text-[#94A3B8]">
             © 2026 Dev Stack. All rights reserved.
           </p>
